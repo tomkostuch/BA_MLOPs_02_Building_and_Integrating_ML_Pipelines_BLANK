@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/MiguelAngelSanchezRa/Python%20Sandbox/Corporate%20training/BA%20MLOPs%2002%20Building%20%26%20Integrating%20ML%20Pipelines/03_Testing_CICD_Docket_Classification_APP/tests/mlruns/862380354032586462/models/m-ce091f6c21b14096a66607b5a9e49e4f/artifacts
+creation_timestamp: 1755006880980
+experiment_id: '862380354032586462'
+last_updated_timestamp: 1755006881016
+model_id: m-ce091f6c21b14096a66607b5a9e49e4f
+model_type: null
+name: final_model_pipeline
+source_run_id: 44f8f2ecf12a41b8a8b8275893757c4a
+status: 3
+status_message: null

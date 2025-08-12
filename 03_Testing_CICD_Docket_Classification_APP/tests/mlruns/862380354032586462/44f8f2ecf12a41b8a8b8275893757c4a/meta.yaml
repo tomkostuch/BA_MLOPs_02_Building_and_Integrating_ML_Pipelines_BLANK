@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/MiguelAngelSanchezRa/Python%20Sandbox/Corporate%20training/BA%20MLOPs%2002%20Building%20%26%20Integrating%20ML%20Pipelines/03_Testing_CICD_Docket_Classification_APP/tests/mlruns/862380354032586462/44f8f2ecf12a41b8a8b8275893757c4a/artifacts
+end_time: 1755006881030
+entry_point_name: ''
+experiment_id: '862380354032586462'
+lifecycle_stage: active
+run_id: 44f8f2ecf12a41b8a8b8275893757c4a
+run_name: Logistic Regression Training
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755006879729
+status: 4
+tags: []
+user_id: MiguelAngelSanchezRa
