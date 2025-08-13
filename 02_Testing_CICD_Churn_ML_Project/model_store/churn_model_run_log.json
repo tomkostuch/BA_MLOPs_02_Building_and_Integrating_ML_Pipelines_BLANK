@@ -1,0 +1,208 @@
+[
+    {
+        "timestamp": "2025-08-13T10:43:58.709392",
+        "model_class": "ChurnPredictionModel",
+        "classifier": "LogisticRegression",
+        "dataset": "Customer Churn",
+        "dataset_info": {
+            "total_samples": 7043,
+            "n_features": 19,
+            "target_mapping": {
+                "0": "No Churn",
+                "1": "Churn"
+            },
+            "target_names": [
+                "No Churn",
+                "Churn"
+            ],
+            "churn_distribution": {
+                "0": 5174,
+                "1": 1869
+            },
+            "feature_columns": [
+                "tenure",
+                "MonthlyCharges",
+                "TotalCharges",
+                "gender",
+                "SeniorCitizen",
+                "Partner",
+                "Dependents",
+                "PhoneService",
+                "MultipleLines",
+                "InternetService",
+                "OnlineSecurity",
+                "OnlineBackup",
+                "DeviceProtection",
+                "TechSupport",
+                "StreamingTV",
+                "StreamingMovies",
+                "Contract",
+                "PaperlessBilling",
+                "PaymentMethod"
+            ],
+            "numeric_features": [
+                "tenure",
+                "MonthlyCharges",
+                "TotalCharges"
+            ],
+            "categorical_features": [
+                "gender",
+                "SeniorCitizen",
+                "Partner",
+                "Dependents",
+                "PhoneService",
+                "MultipleLines",
+                "InternetService",
+                "OnlineSecurity",
+                "OnlineBackup",
+                "DeviceProtection",
+                "TechSupport",
+                "StreamingTV",
+                "StreamingMovies",
+                "Contract",
+                "PaperlessBilling",
+                "PaymentMethod"
+            ]
+        },
+        "parameters": {
+            "random_state": 42,
+            "classifier_params": {
+                "C": 1.0,
+                "class_weight": "balanced",
+                "dual": false,
+                "fit_intercept": true,
+                "intercept_scaling": 1,
+                "l1_ratio": null,
+                "max_iter": 1000,
+                "multi_class": "auto",
+                "n_jobs": null,
+                "penalty": "l2",
+                "random_state": 42,
+                "solver": "lbfgs",
+                "tol": 0.0001,
+                "verbose": 0,
+                "warm_start": false
+            }
+        },
+        "metrics": {
+            "accuracy": 0.7495741056218058,
+            "precision": 0.5181564245810056,
+            "recall": 0.7944325481798715,
+            "f1_score": 0.6272189349112427,
+            "confusion_matrix": [
+                [
+                    949,
+                    345
+                ],
+                [
+                    96,
+                    371
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n    No Churn       0.91      0.73      0.81      1294\n       Churn       0.52      0.79      0.63       467\n\n    accuracy                           0.75      1761\n   macro avg       0.71      0.76      0.72      1761\nweighted avg       0.80      0.75      0.76      1761\n"
+        }
+    },
+    {
+        "timestamp": "2025-08-13T10:53:15.681048",
+        "model_class": "ChurnPredictionModel",
+        "classifier": "LogisticRegression",
+        "dataset": "Customer Churn",
+        "dataset_info": {
+            "total_samples": 7043,
+            "n_features": 19,
+            "target_mapping": {
+                "0": "No Churn",
+                "1": "Churn"
+            },
+            "target_names": [
+                "No Churn",
+                "Churn"
+            ],
+            "churn_distribution": {
+                "0": 5174,
+                "1": 1869
+            },
+            "feature_columns": [
+                "tenure",
+                "MonthlyCharges",
+                "TotalCharges",
+                "gender",
+                "SeniorCitizen",
+                "Partner",
+                "Dependents",
+                "PhoneService",
+                "MultipleLines",
+                "InternetService",
+                "OnlineSecurity",
+                "OnlineBackup",
+                "DeviceProtection",
+                "TechSupport",
+                "StreamingTV",
+                "StreamingMovies",
+                "Contract",
+                "PaperlessBilling",
+                "PaymentMethod"
+            ],
+            "numeric_features": [
+                "tenure",
+                "MonthlyCharges",
+                "TotalCharges"
+            ],
+            "categorical_features": [
+                "gender",
+                "SeniorCitizen",
+                "Partner",
+                "Dependents",
+                "PhoneService",
+                "MultipleLines",
+                "InternetService",
+                "OnlineSecurity",
+                "OnlineBackup",
+                "DeviceProtection",
+                "TechSupport",
+                "StreamingTV",
+                "StreamingMovies",
+                "Contract",
+                "PaperlessBilling",
+                "PaymentMethod"
+            ]
+        },
+        "parameters": {
+            "random_state": 42,
+            "classifier_params": {
+                "C": 1.0,
+                "class_weight": "balanced",
+                "dual": false,
+                "fit_intercept": true,
+                "intercept_scaling": 1,
+                "l1_ratio": null,
+                "max_iter": 1000,
+                "multi_class": "auto",
+                "n_jobs": null,
+                "penalty": "l2",
+                "random_state": 42,
+                "solver": "lbfgs",
+                "tol": 0.0001,
+                "verbose": 0,
+                "warm_start": false
+            }
+        },
+        "metrics": {
+            "accuracy": 0.7495741056218058,
+            "precision": 0.5181564245810056,
+            "recall": 0.7944325481798715,
+            "f1_score": 0.6272189349112427,
+            "confusion_matrix": [
+                [
+                    949,
+                    345
+                ],
+                [
+                    96,
+                    371
+                ]
+            ],
+            "classification_report": "              precision    recall  f1-score   support\n\n    No Churn       0.91      0.73      0.81      1294\n       Churn       0.52      0.79      0.63       467\n\n    accuracy                           0.75      1761\n   macro avg       0.71      0.76      0.72      1761\nweighted avg       0.80      0.75      0.76      1761\n"
+        }
+    }
+]
